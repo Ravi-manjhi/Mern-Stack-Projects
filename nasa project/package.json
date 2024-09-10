@@ -1,0 +1,19 @@
+{
+  "name": "nasa_space_mission",
+  "version": "1.0.0",
+  "description": "project which tracks nasa space mission for searching lives in other planets. Where human can survive and get earth like environment",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "npm run server & npm run client",
+    "test": "npm run test --prefix server && npm run test --prefix client",
+    "build": "npm run build --prefix client && npm start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

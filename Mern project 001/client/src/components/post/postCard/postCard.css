@@ -1,0 +1,40 @@
+.post__cards {
+  position: relative;
+}
+.media {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  height: 10rem;
+}
+
+.overlay {
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.overlay h6 {
+  font-weight: 800;
+  color: #fff;
+}
+
+.overlay p {
+  color: #cdfcf6;
+}
+
+.title {
+  padding: 0.5rem 0 0 0.5rem;
+  font-weight: 900 !important;
+}
+
+.tags {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  color: gray;
+  font-weight: 600 !important;
+}
+
+.cardActions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+.loading {
+  height: 28rem !important;
+  justify-content: center !important;
+}
+.container {
+  margin-top: 0.7rem !important;
+}
+
+.cards {
+  display: flex !important;
+  flex-direction: row;
+  padding: 1rem !important;
+}
